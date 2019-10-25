@@ -27,5 +27,5 @@ Untuk bisa melakukan build dan menjalankan aplikasi, ada beberapa software yang 
 
 ## Tim Pengembang ##
 
-* [Fani Susanti] system analyst (https://github.com/fanisusanti) 
-* [Andi Hoerudin] Programmer - [andihoerudin24@gmail.com](mailto:andihoerudin24@gmail.com)
+* [Fani Susanti] system analyst - (https://github.com/fanisusanti) 
+* [Andi Hoerudin] Programmer    - [andihoerudin24@gmail.com](mailto:andihoerudin24@gmail.com)
