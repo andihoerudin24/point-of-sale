@@ -16,15 +16,15 @@ Untuk bisa melakukan build dan menjalankan aplikasi, ada beberapa software yang 
 
 ## Gambaran Aplikasi Secara Umum ##
 
-1.<p align="center"><img height="300" width="300" src="https://github.com/andihoerudin24/point-of-sale/blob/master/1.PNG"></p>
+1.<p align="center"><img src="https://github.com/andihoerudin24/point-of-sale/blob/master/1.PNG"></p>
 
-2.<p align="center"><img height="300" width="500" src="https://github.com/andihoerudin24/point-of-sale/blob/master/2.PNG"></p>
+2.<p align="center"><img  src="https://github.com/andihoerudin24/point-of-sale/blob/master/2.PNG"></p>
 
-3.<p align="center"><img height="300" width="300" src="https://github.com/andihoerudin24/point-of-sale/blob/master/3.PNG"></p>
+3.<p align="center"><img  src="https://github.com/andihoerudin24/point-of-sale/blob/master/3.PNG"></p>
 
-4.<p align="center"><img height="300" width="300" src="https://github.com/andihoerudin24/point-of-sale/blob/master/4.PNG"></p>
+4.<p align="center"><img  src="https://github.com/andihoerudin24/point-of-sale/blob/master/4.PNG"></p>
 
-4.<p align="center"><img height="300" width="300" src="https://github.com/andihoerudin24/point-of-sale/blob/master/5.PNG"></p>
+4.<p align="center"><img  src="https://github.com/andihoerudin24/point-of-sale/blob/master/5.PNG"></p>
 
 
 ## Tim Pengembang ##
